@@ -1,4 +1,2 @@
-SELECT * 
+SELECT CONCAT(first_name, last_name) AS full_name 
 FROM customers
-ORDER BY DESC 
--- also We can use ASC for ascending order 
