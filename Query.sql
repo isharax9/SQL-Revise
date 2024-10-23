@@ -1,5 +1,3 @@
-SELECT * 
+SELECT *
 FROM customers
 WHERE birth_date > '1990-01-01' OR points > 1000;
-
---we can get the null values using the IS NULL
